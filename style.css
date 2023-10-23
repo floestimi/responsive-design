@@ -1,0 +1,42 @@
+.parrafo {
+    column-count: 1;
+    text-align: justify;
+}
+
+.row {
+    margin: 40px 0px;
+}
+
+#tabla {
+    color: black;
+}
+
+@media(min-width:768px) {
+    .parrafo {
+        column-count: 2;
+    }
+
+    .show-opcion {
+        display: block;
+    }
+}
+
+@media(min-width:992px) {
+    .parrafo {
+        column-count: 3;
+    }
+
+    .show-opcion {
+        display: none;
+    }
+}
+
+@media(max-width:991px) {
+    .tabla {
+        display: none;
+    }
+
+    .show-opcion {
+        display: block;
+    }
+}
